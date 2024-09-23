@@ -255,7 +255,7 @@
 				A447B6651666FD02009EA762 /* MainWindow.xib */,
 			);
 			name = resource;
-			path = "$HOME/Library/Application Support/Corona/Native";
+			path = "$HOME/Library/Application Support/Corona/NativePE";
 			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */

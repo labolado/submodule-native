@@ -45,7 +45,7 @@ val nativeDir = if (windows) {
     (resourceDir ?: "${System.getenv("CORONA_PATH")}/Native").replace("\\", "/")
 } else {
     val resourceDir = coronaResourcesDir?.let { file("$it/../../../Native/").absolutePath }?.takeIf { file(it).exists() }
-    resourceDir ?: "${System.getenv("HOME")}/Library/Application Support/Corona/Native/"
+    resourceDir ?: "${System.getenv("HOME")}/Library/Application Support/Corona/NativePE/"
 }
 
 val coronaPlugins = file("$buildDir/corona-plugins")

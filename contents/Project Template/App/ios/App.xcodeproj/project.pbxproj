@@ -294,7 +294,7 @@
 				A447B6651666FD02009EA762 /* MainWindow.xib */,
 			);
 			name = resource;
-			path = "$HOME/Library/Application Support/Corona/Native";
+			path = "$HOME/Library/Application Support/Corona/NativePE";
 			sourceTree = "<absolute>";
 		};
 		A4E253DB166DE7C800DCDC2C /* Products */ = {
@@ -624,7 +624,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CORONA_ROOT = "$HOME/Library/Application Support/Corona/Native";
+				CORONA_ROOT = "$HOME/Library/Application Support/Corona/NativePE";
 				DEVELOPMENT_TEAM = A6QFRGXX8S;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -634,7 +634,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CORONA_ROOT = "$HOME/Library/Application Support/Corona/Native";
+				CORONA_ROOT = "$HOME/Library/Application Support/Corona/NativePE";
 				DEVELOPMENT_TEAM = A6QFRGXX8S;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
