@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		4188F1C92CD8AE49006543F8 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4188F1C82CD8AE49006543F8 /* PhotosUI.framework */; };
 		A447B610165D72FB009EA762 /* AppCoronaDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = A447B60F165D72FB009EA762 /* AppCoronaDelegate.mm */; };
 		A447B6671666FD02009EA762 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A447B6641666FD02009EA762 /* MainWindow-iPad.xib */; };
 		A447B6681666FD02009EA762 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A447B6651666FD02009EA762 /* MainWindow.xib */; };
@@ -86,6 +87,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4188F1C82CD8AE49006543F8 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
 		A447B60E165D72FB009EA762 /* AppCoronaDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCoronaDelegate.h; sourceTree = SOURCE_ROOT; };
 		A447B60F165D72FB009EA762 /* AppCoronaDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppCoronaDelegate.mm; sourceTree = SOURCE_ROOT; };
 		A447B6641666FD02009EA762 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Corona/ios/resource/MainWindow-iPad.xib"; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				A484117C15128D5D0074BD57 /* CoreLocation.framework in Frameworks */,
 				A484117D15128D5D0074BD57 /* CoreMedia.framework in Frameworks */,
 				A484117E15128D5D0074BD57 /* CoreMotion.framework in Frameworks */,
+				4188F1C92CD8AE49006543F8 /* PhotosUI.framework in Frameworks */,
 				A484112015114F700074BD57 /* Foundation.framework in Frameworks */,
 				A484117F15128D5D0074BD57 /* GameKit.framework in Frameworks */,
 				F5E548091BE7FF0200091810 /* GameController.framework in Frameworks */,
@@ -231,6 +234,7 @@
 		A484111C15114F700074BD57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4188F1C82CD8AE49006543F8 /* PhotosUI.framework */,
 				E640B2F31BFC00BA0031FAE9 /* Photos.framework */,
 				E640B2F11BFC00B00031FAE9 /* AssetsLibrary.framework */,
 				F5E548081BE7FF0200091810 /* GameController.framework */,
