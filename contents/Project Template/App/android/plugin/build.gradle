@@ -6,8 +6,6 @@ android {
         namespace "plugin.library" // This is the package name of the plugin
 
         minSdkVersion 21
-        versionCode 1
-        versionName "1.0"
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
