@@ -14,4 +14,4 @@ ENABLE_BITCODE = no
 //CORONA_FORCE_LOAD = --force-load
 //CORONA_CUSTOM_LDFLAGS = -force_load "$(BUILT_PRODUCTS_DIR)/libplugin_library.a"
 
-EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+//EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
